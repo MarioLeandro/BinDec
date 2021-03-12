@@ -1,6 +1,8 @@
 <h1 align="center">
-  <img alt="NextLevelWeek" src="/public/icons/logo.png" width="30%"/>
-  <p> B2D is an application that has a dark theme and a light theme, the dark theme converts binary numbers to decimal numbers, while the light theme converts decimal numbers to binary numbers.</p>
+  <img alt="Logo" src="/public/icons/logo.png" width="30%"/>
+  <br>
+  <h2>💻 The App</h2>
+  <h2> B2D is an application that has a dark theme and a light theme, the dark theme converts binary numbers to decimal numbers, while the light theme converts decimal numbers to binary numbers.</h2>
 </h1>
 
 # 🖼 Layouts
