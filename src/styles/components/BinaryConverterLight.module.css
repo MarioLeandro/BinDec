@@ -1,0 +1,53 @@
+.binaryConverterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+    transition: background 0.5s;
+}
+
+.binaryConverterContainer p{
+    font-size: 23px;
+    color: var(--red);
+}
+
+.binaryConverterContainer input{
+    margin-top: 2rem;
+    font-family: 'Iceland', cursive;
+    font-weight: 400;
+    text-align: center;
+    border: 5px solid var(--black);
+    background-color: var(--white);
+    color: var(--green);
+    transition: background 0.5s;
+}
+
+.binaryConverterContainer button {
+    margin-top: 5rem;
+    width: 188px;
+    height: 57px;
+    background-color: var(--green);
+    color: var(--black);
+    border-radius: 5px;
+    border: 0;
+    transition: filter 0.2s;
+    transition: background 0.5s;
+}
+
+.binaryConverterContainer button:hover {
+    filter: brightness(0.8);
+}
+
+.binaryConverterContainer button:active {
+    filter: brightness(1);
+}
+
+@media(max-width: 720px) {
+
+    .binaryConverterContainer input{
+        width: 80%;
+    }
+}

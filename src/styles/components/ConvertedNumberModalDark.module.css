@@ -1,0 +1,41 @@
+.overlay {
+    background: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container header {
+    font-size: 8.75rem;
+    font-weight: 600;
+    margin-bottom: 10rem;
+}
+
+
+.container button {
+    order: -1;
+    margin-bottom: 2rem;
+    background: transparent;
+    border: 0;
+    font-size: 0px;
+}
+
+.container button img{
+    width: 50%;
+}
