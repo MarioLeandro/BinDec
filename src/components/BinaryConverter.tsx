@@ -101,7 +101,7 @@ const BinaryConverter = () => {
                 </div>
             ) :(
                 <div className={light.binaryConverterContainer}>
-                    {isDecimal ? <p></p> : <p>You entered a non-number digit (please enter only 0 or 1).</p> }
+                    {isDecimal ? <p></p> : <p>You entered a non-number digit (please enter only numbers).</p> }
                     <input type="text" placeholder="Your Number" onChange={handleChange}/>
                     <button type="button" onClick={convertNumber}>Convert</button>
                     {isConvertedNumberModalOpen && <ConvertedNumberModal onClose={closeModal}>{convertedNumber}</ConvertedNumberModal>}
